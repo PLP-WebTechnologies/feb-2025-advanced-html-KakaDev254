@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Elements and Forms</title>
+  </head>
+  <body>
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+      <h2>Ordered List with Roman Numerals</h2>
+      <ol type="I">
+        <li>Introduction to HTML5</li>
+        <li>HTML5 Semantic Elements</li>
+        <li>Forms and Inputs</li>
+        <li>Multimedia Elements</li>
+        <li>Advanced Features</li>
+      </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+      <h2>Image from Pexels</h2>
+      <img
+        src="https://www.pexels.com/photo/playful-border-collie-enjoying-snowy-winter-day-30800337/"
+        alt="Animal Pic"
+        width="600"
+      />
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+      <h2>Contact List</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John ndwete</td>
+            <td>123 Main St, Karenview</td>
+            <td>123-456-7890</td>
+            <td>johnndwete.com</td>
+          </tr>
+          <tr>
+            <td>Jane Saumu</td>
+            <td>456 Mkungwi, Town</td>
+            <td>987-654-3210</td>
+            <td>janesaumu@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Bob Johnson</td>
+            <td>789 Tom Mboya St, Nairobi</td>
+            <td>555-123-4567</td>
+            <td>bobjohnson@234.com</td>
+          </tr>
+          <tr>
+            <td>Alice Waome</td>
+            <td>321 Spring Valley, Westlands</td>
+            <td>444-987-6543</td>
+            <td>alicebrown.co.ke</td>
+          </tr>
+          <tr>
+            <td>Charlie Davis</td>
+            <td>654 Cedar St, Voi</td>
+            <td>666-555-4444</td>
+            <td>charliedavis@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="POST">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br /><br />
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br /><br />
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <br /><br />
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+        <br /><br />
+
+        <!-- Dropdown Menu -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="us">United States</option>
+          <option value="ca">Canada</option>
+          <option value="uk">United Kingdom</option>
+          <option value="au">Australia</option>
+        </select>
+        <br /><br />
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br /><br />
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading" />
+        <label for="reading">Reading</label>
+        <br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </body>
+</html>
